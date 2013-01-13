@@ -1,0 +1,5 @@
+22:12 <@DrWhax> I have this pretty vague idea of a tool which would install a program like Pidgin everytime a new release come's out. It will then look through the binaries and dll's whether 
+                they are out of date and vulnerable to known vulnerabilities? I can see it happening again that Pidgin will ship a bunch of X year outdated and vulnerable dll's. Also, it will 
+                look whether it's compiled with ASLR/DEP/SafeSEH/GS flags?
+22:13 <@DrWhax> and this will be compiled in a report and send to the developers?
+22:15 <@DrWhax> I guess the compiler flag thingie is easy to do, i'm not so sure about looking for outdated dll's..
